@@ -37,4 +37,8 @@ for user in users:
         })
 
 df = pd.DataFrame(rows)
+
+print("ETL finalizado com sucesso! Arquivo users_with_news.csv gerado.")
+
+
 df.to_csv("users_with_news.csv", index=False)
